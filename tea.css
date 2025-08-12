@@ -1,0 +1,204 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+    
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url(https://wildorchidteas.com/wp-content/uploads/2017/02/Indian-Masala-Spiced-Chai-flavored-black-tea.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width:100vh ;
+    height: 1000px;
+    background-color: #1e1e2f;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    margin-left: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul li:hover {
+    color: #F5F5DC;
+}
+
+.hero-content {
+    text-align: center;
+    color: #F5F5DC;
+    margin: 250px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    border: none;
+    background: #673ab7;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hero-content button:hover {
+    background: white;
+    color: #673ab7;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 5px #3f51b5;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.about-image img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Location Section */
+.location-section {
+    overflow: hidden;
+    border: solid 5px #ff5722;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.location-image {
+    float: left;
+    width: 45%;
+}
+
+.location-image img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.location-text {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+/* Gallery Section */
+.gallery-section h3 {
+    text-align: center;
+}
+.ah {
+    text-align: center;
+}
+
+.gallery-items {
+    display: flex;
+    margin: 50px auto;
+    border: solid 5px #009688;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.item-inner {
+    text-align: center;
+    float: left;
+    margin: 33.3px;
+    border: solid 2px #009688;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: white;
+}
+
+.item-inner:hover {
+    transform: scale(1.05);
+}
+
+.item-inner img {
+    width: 100%;
+    height: 345px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/* Contact Info Section */
+.contact-info-section {
+    display: flex;
+    margin: 20px 50px;
+    padding: 20px;
+}
+
+.contact-info-text {
+    margin-top: 50px;
+    margin-left: 50px;
+    flex: 1;
+}
+
+.contact-map {
+    min-width: 300px;
+    flex: 1;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Footer Section */
+.footer-section {
+    display: flex;
+    margin: 15px;
+}
+
+.footer-section .footer-column {
+    flex: 1;
+    min-width: 250px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    margin: 20px;
+}
+
+/* Bottom Bar */
+.bottom-bar .bottom-bar-content {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #3f51b5;
+    min-width:100vh ;
+}
+
+.bottom-bar .bottom-bar-content img{
+    height: 100px;
+}
